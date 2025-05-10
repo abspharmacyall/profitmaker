@@ -87,12 +87,13 @@ product_html/
     </pre>
   </div>
 
-  <div class="section">
-    <h2>🧑‍💻 Author</h2>
-    <p><strong>Ameena Najam</strong><br>
-    Postgraduate in Genetics | Aspiring Genetic Counsellor</p>
-    <p>🔗 <a href="#">LinkedIn</a> • <a href="#">GitHub</a></p>
-  </div>
+<div class="section">
+  <h2>🧑‍💻 Author</h2>
+  <p><strong>Shaik Shahebaaz</strong><br>
+  Data Analyst | Passionate about turning data into actionable insights</p>
+  <p>🔗 <a href="#">LinkedIn</a> • <a href="#">GitHub</a></p>
+</div>
+
 
   <div class="section">
     <h2>📸 Screenshots</h2>
