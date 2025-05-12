@@ -75,15 +75,50 @@
   <div class="section">
     <h2>📂 Folder Structure</h2>
     <pre>
-product_html/
-├── index.html
-├── sale.html
-├── purchase.html
-├── customers.html
-├── suppliers.html
-├── stock.html
-├── reports.html
-└── settings.html
+pharmacy-app/
+│
+├── index.html                  # Dashboard/Homepage
+├── billing.html                # Billing/Sales page
+├── purchase.html               # Purchase entry page
+├── master/
+│   ├── items.html              # Item master
+│   ├── company.html            # Company master
+│   ├── supplier.html           # Supplier master
+├── reports/
+│   ├── sales-query.html        # Sales query page
+│   ├── adjustment.html         # Stock adjustment page
+│   ├── bill-print.html         # Printable bill page
+│
+├── assets/
+│   ├── css/
+│   │   ├── style.css           # Global styles
+│   │   ├── billing.css         # Page-specific styles
+│   │   ├── purchase.css
+│   │   └── master.css
+│   │
+│   ├── js/
+│   │   ├── main.js             # Common JS (e.g., date handling, modals)
+│   │   ├── billing.js          # Billing logic
+│   │   ├── purchase.js
+│   │   └── master.js
+│   │
+│   ├── img/                    # Logos, icons, medicine images
+│   └── fonts/                  # Custom fonts (optional)
+│
+├── components/
+│   ├── header.html             # Top navbar (reused)
+│   ├── sidebar.html            # Sidebar navigation
+│   ├── footer.html             # Footer
+│
+├── data/                       # JSON or CSV data (test or real)
+│   ├── items.json
+│   ├── suppliers.json
+│   └── companies.json
+│
+├── print/                      # Printable templates
+│   └── bill-template.html
+│
+└── README.md                   # Project overview or instructions
     </pre>
   </div>
 
