@@ -78,7 +78,7 @@
 pharmacy-app/
 │
 ├── index.html                  # Dashboard/Homepage
-├── billing.html                # Billing/Sales page
+├── sale.html                   # Billing/Sales page
 ├── purchase.html               # Purchase entry page
 ├── master/
 │   ├── items.html              # Item master
@@ -92,13 +92,13 @@ pharmacy-app/
 ├── assets/
 │   ├── css/
 │   │   ├── style.css           # Global styles
-│   │   ├── billing.css         # Page-specific styles
+│   │   ├── sale.css            # Page-specific styles
 │   │   ├── purchase.css
 │   │   └── master.css
 │   │
 │   ├── js/
 │   │   ├── main.js             # Common JS (e.g., date handling, modals)
-│   │   ├── billing.js          # Billing logic
+│   │   ├── sale.js             # Sale logic
 │   │   ├── purchase.js
 │   │   └── master.js
 │   │
