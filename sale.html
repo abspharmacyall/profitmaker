@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pharmacy Sales</title>
+        <link rel="stylesheet" href="../css/sale.css" />
+        </head>
+        <body>
+          <header>
+              <h1>Pharmacy Sales Billing</h1>
+                </header>
+
+                  <section class="sale-form">
+                      <form id="billingForm">
+                            <div class="form-row">
+                                    <label>Bill No:</label>
+                                            <input type="text" id="billNo" readonly value="Auto-generated" />
+                                                    <label>Date:</label>
+                                                            <input type="date" id="saleDate" />
+                                                                  </div>
+
+                                                                        <div class="form-row">
+                                                                                <label>Customer Name:</label>
+                                                                                        <input type="text" id="customerName" />
+                                                                                                <label>Mobile:</label>
+                                                                                                        <input type="text" id="mobile" maxlength="10" />
+                                                                                                              </div>
+                                                                                                                  </form>
+                                                                                                                    </section>
+
+                                                                                                                      <section class="item-entry">
+                                                                                                                          <h2>Item Details (Press F10 to Add)</h2>
+                                                                                                                              <table id="itemTable">
+                                                                                                                                    <thead>
+                                                                                                                                            <tr>
+                                                                                                                                                      <th>Barcode</th>
+                                                                                                                                                                <th>Item</th>
+                                                                                                                                                                          <th>Qty</th>
+                                                                                                                                                                                    <th>Rate</th>
+                                                                                                                                                                                              <th>Discount %</th>
+                                                                                                                                                                                                        <th>GST %</th>
+                                                                                                                                                                                                                  <th>Amount</th>
+                                                                                                                                                                                                                            <th>Action</th>
+                                                                                                                                                                                                                                    </tr>
+                                                                                                                                                                                                                                          </thead>
+                                                                                                                                                                                                                                                <tbody id="itemBody">
+                                                                                                                                                                                                                                                        <!-- JS will insert rows here -->
+                                                                                                                                                                                                                                                              </tbody>
+                                                                                                                                                                                                                                                                  </table>
+                                                                                                                                                                                                                                                                    </section>
+
+                                                                                                                                                                                                                                                                      <section class="totals">
+                                                                                                                                                                                                                                                                          <label>Total Amount:</label>
+                                                                                                                                                                                                                                                                              <input type="text" id="totalAmount" readonly />
+                                                                                                                                                                                                                                                                                  <label>Discount:</label>
+                                                                                                                                                                                                                                                                                      <input type="text" id="totalDiscount" readonly />
+                                                                                                                                                                                                                                                                                          <label>Net Payable:</label>
+                                                                                                                                                                                                                                                                                              <input type="text" id="netPayable" readonly />
+                                                                                                                                                                                                                                                                                                </section>
+
+                                                                                                                                                                                                                                                                                                  <section class="actions">
+                                                                                                                                                                                                                                                                                                      <button type="button" onclick="printBill()">Print Bill</button>
+                                                                                                                                                                                                                                                                                                          <button type="submit" form="billingForm">Save</button>
+                                                                                                                                                                                                                                                                                                              <button type="reset" form="billingForm">Clear</button>
+                                                                                                                                                                                                                                                                                                                </section>
+
+                                                                                                                                                                                                                                                                                                                  <script src="assets/js/sale.js"></script>
+                                                                                                                                                                                                                                                                                                                  </body>
+                                                                                                                                                                                                                                                                                                                  </html>
